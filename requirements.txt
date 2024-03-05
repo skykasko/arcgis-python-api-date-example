@@ -1,0 +1,475 @@
+aiofiles==22.1.0
+    # via ypy-websocket
+aiosqlite==0.20.0
+    # via ypy-websocket
+anyio==3.7.1
+    # via jupyter-server
+arcgis==2.2.0.3
+argon2-cffi==23.1.0
+    # via
+    #   jupyter-server
+    #   nbclassic
+    #   notebook
+argon2-cffi-bindings==21.2.0
+    # via argon2-cffi
+arrow==1.3.0
+    # via isoduration
+asttokens==2.4.1
+    # via stack-data
+attrs==23.2.0
+    # via
+    #   jsonschema
+    #   referencing
+babel==2.14.0
+    # via jupyterlab-server
+beautifulsoup4==4.12.3
+    # via nbconvert
+bleach==6.1.0
+    # via nbconvert
+cachetools==5.3.3
+    # via arcgis
+certifi==2024.2.2
+    # via
+    #   python-certifi-win32
+    #   requests
+cffi==1.16.0
+    # via
+    #   argon2-cffi-bindings
+    #   cryptography
+charset-normalizer==3.3.2
+    # via requests
+click==8.1.7
+    # via
+    #   dask
+    #   geomet
+cloudpickle==3.0.0
+    # via dask
+colorama==0.4.6
+    # via
+    #   click
+    #   ipython
+comm==0.2.1
+    # via
+    #   ipykernel
+    #   ipywidgets
+contourpy==1.2.0
+    # via matplotlib
+cryptography==42.0.5
+    # via
+    #   arcgis
+    #   pyspnego
+    #   requests-kerberos
+cycler==0.12.1
+    # via matplotlib
+dask==2024.2.1
+    # via arcgis
+debugpy==1.8.1
+    # via ipykernel
+decorator==5.1.1
+    # via
+    #   gssapi
+    #   ipython
+defusedxml==0.7.1
+    # via nbconvert
+exceptiongroup==1.2.0
+    # via
+    #   anyio
+    #   ipython
+executing==2.0.1
+    # via stack-data
+fastjsonschema==2.19.1
+    # via nbformat
+fonttools==4.49.0
+    # via matplotlib
+fqdn==1.5.1
+    # via jsonschema
+fsspec==2024.2.0
+    # via dask
+geomet==1.1.0
+    # via arcgis
+gssapi==1.8.3
+    # via requests-gssapi
+idna==3.6
+    # via
+    #   anyio
+    #   jsonschema
+    #   requests
+importlib-metadata==7.0.1
+    # via
+    #   dask
+    #   jupyter-ydoc
+    #   jupyterlab-server
+    #   keyring
+    #   nbconvert
+importlib-resources==6.1.2
+    # via matplotlib
+ipykernel==6.29.3
+    # via
+    #   nbclassic
+    #   notebook
+ipython==8.18.1
+    # via
+    #   ipykernel
+    #   ipywidgets
+    #   jupyterlab
+ipython-genutils==0.2.0
+    # via
+    #   ipywidgets
+    #   nbclassic
+    #   notebook
+ipywidgets==7.8.1
+    # via arcgis
+isoduration==20.11.0
+    # via jsonschema
+jaraco-classes==3.3.1
+    # via keyring
+jedi==0.19.1
+    # via ipython
+jinja2==3.1.3
+    # via
+    #   jupyter-server
+    #   jupyterlab
+    #   jupyterlab-server
+    #   nbclassic
+    #   nbconvert
+    #   notebook
+json5==0.9.20
+    # via jupyterlab-server
+jsonpointer==2.4
+    # via jsonschema
+jsonschema==4.21.1
+    # via
+    #   jupyter-events
+    #   jupyterlab-server
+    #   nbformat
+jsonschema-specifications==2023.12.1
+    # via jsonschema
+jupyter-client==6.1.12
+    # via
+    #   arcgis
+    #   ipykernel
+    #   jupyter-server
+    #   nbclassic
+    #   nbclient
+    #   notebook
+jupyter-core==5.7.1
+    # via
+    #   ipykernel
+    #   jupyter-client
+    #   jupyter-server
+    #   jupyterlab
+    #   nbclassic
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+    #   notebook
+jupyter-events==0.9.0
+    # via jupyter-server-fileid
+jupyter-server==1.24.0
+    # via
+    #   jupyter-server-fileid
+    #   jupyterlab
+    #   jupyterlab-server
+    #   nbclassic
+    #   notebook-shim
+jupyter-server-fileid==0.9.1
+    # via jupyter-server-ydoc
+jupyter-server-ydoc==0.8.0
+    # via jupyterlab
+jupyter-ydoc==0.2.5
+    # via
+    #   jupyter-server-ydoc
+    #   jupyterlab
+jupyterlab==3.6.7
+    # via arcgis
+jupyterlab-pygments==0.3.0
+    # via nbconvert
+jupyterlab-server==2.25.3
+    # via jupyterlab
+jupyterlab-widgets==1.1.7
+    # via ipywidgets
+keyring==24.3.1
+    # via arcgis
+kiwisolver==1.4.5
+    # via matplotlib
+locket==1.0.0
+    # via partd
+lxml==5.1.0
+    # via arcgis
+markupsafe==2.1.5
+    # via
+    #   jinja2
+    #   nbconvert
+matplotlib==3.8.3
+    # via arcgis
+matplotlib-inline==0.1.6
+    # via
+    #   arcgis
+    #   ipykernel
+    #   ipython
+mistune==3.0.2
+    # via nbconvert
+more-itertools==10.2.0
+    # via jaraco-classes
+nbclassic==1.0.0
+    # via
+    #   jupyterlab
+    #   notebook
+nbclient==0.9.0
+    # via nbconvert
+nbconvert==7.16.2
+    # via
+    #   jupyter-server
+    #   nbclassic
+    #   notebook
+nbformat==5.9.2
+    # via
+    #   jupyter-server
+    #   nbclassic
+    #   nbclient
+    #   nbconvert
+    #   notebook
+nest-asyncio==1.6.0
+    # via
+    #   ipykernel
+    #   nbclassic
+    #   notebook
+notebook==6.5.6
+    # via
+    #   arcgis
+    #   jupyterlab
+    #   widgetsnbextension
+notebook-shim==0.2.4
+    # via nbclassic
+numpy==1.26.4
+    # via
+    #   arcgis
+    #   contourpy
+    #   matplotlib
+    #   pandas
+    #   pylerc
+oauthlib==3.2.2
+    # via requests-oauthlib
+packaging==23.2
+    # via
+    #   dask
+    #   ipykernel
+    #   jupyter-server
+    #   jupyterlab
+    #   jupyterlab-server
+    #   matplotlib
+    #   nbconvert
+    #   setuptools-scm
+pandas==2.2.1
+    # via arcgis
+pandocfilters==1.5.1
+    # via nbconvert
+parso==0.8.3
+    # via jedi
+partd==1.4.1
+    # via dask
+pillow==10.2.0
+    # via
+    #   arcgis
+    #   matplotlib
+platformdirs==4.2.0
+    # via jupyter-core
+prometheus-client==0.20.0
+    # via
+    #   jupyter-server
+    #   nbclassic
+    #   notebook
+prompt-toolkit==3.0.43
+    # via ipython
+psutil==5.9.8
+    # via ipykernel
+pure-eval==0.2.2
+    # via stack-data
+pycparser==2.21
+    # via cffi
+pygments==2.17.2
+    # via
+    #   ipython
+    #   nbconvert
+pylerc==4.0
+    # via arcgis
+pyparsing==3.1.1
+    # via matplotlib
+pyshp==2.3.1
+    # via arcgis
+pyspnego==0.10.2
+    # via
+    #   arcgis
+    #   requests-kerberos
+python-certifi-win32==1.6.1
+    # via arcgis
+python-dateutil==2.9.0.post0
+    # via
+    #   arrow
+    #   jupyter-client
+    #   matplotlib
+    #   pandas
+python-json-logger==2.0.7
+    # via jupyter-events
+pytz==2024.1
+    # via pandas
+pywin32==306
+    # via
+    #   arcgis
+    #   jupyter-core
+pywin32-ctypes==0.2.2
+    # via keyring
+pywinpty==2.0.13
+    # via
+    #   jupyter-server
+    #   terminado
+pyyaml==6.0.1
+    # via
+    #   dask
+    #   jupyter-events
+pyzmq==24.0.1
+    # via
+    #   ipykernel
+    #   jupyter-client
+    #   jupyter-server
+    #   nbclassic
+    #   notebook
+referencing==0.33.0
+    # via
+    #   jsonschema
+    #   jsonschema-specifications
+    #   jupyter-events
+requests==2.31.0
+    # via
+    #   arcgis
+    #   jupyterlab-server
+    #   requests-gssapi
+    #   requests-kerberos
+    #   requests-oauthlib
+    #   requests-toolbelt
+requests-gssapi==1.3.0
+    # via arcgis
+requests-kerberos==0.14.0
+    # via arcgis
+requests-oauthlib==1.3.1
+    # via arcgis
+requests-toolbelt==1.0.0
+    # via arcgis
+rfc3339-validator==0.1.4
+    # via
+    #   jsonschema
+    #   jupyter-events
+rfc3986-validator==0.1.1
+    # via
+    #   jsonschema
+    #   jupyter-events
+rpds-py==0.18.0
+    # via
+    #   jsonschema
+    #   referencing
+send2trash==1.8.2
+    # via
+    #   jupyter-server
+    #   nbclassic
+    #   notebook
+setuptools==69.1.1
+    # via setuptools-scm
+setuptools-scm==8.0.4
+    # via python-certifi-win32
+six==1.16.0
+    # via
+    #   asttokens
+    #   bleach
+    #   python-dateutil
+    #   rfc3339-validator
+sniffio==1.3.1
+    # via anyio
+soupsieve==2.5
+    # via beautifulsoup4
+sspilib==0.1.0
+    # via pyspnego
+stack-data==0.6.3
+    # via ipython
+terminado==0.18.0
+    # via
+    #   jupyter-server
+    #   nbclassic
+    #   notebook
+tinycss2==1.2.1
+    # via nbconvert
+tomli==2.0.1
+    # via
+    #   jupyterlab
+    #   setuptools-scm
+toolz==0.12.1
+    # via
+    #   dask
+    #   partd
+tornado==6.4
+    # via
+    #   ipykernel
+    #   jupyter-client
+    #   jupyter-server
+    #   jupyterlab
+    #   nbclassic
+    #   notebook
+    #   terminado
+traitlets==5.14.1
+    # via
+    #   comm
+    #   ipykernel
+    #   ipython
+    #   ipywidgets
+    #   jupyter-client
+    #   jupyter-core
+    #   jupyter-events
+    #   jupyter-server
+    #   matplotlib-inline
+    #   nbclassic
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+    #   notebook
+types-python-dateutil==2.8.19.20240106
+    # via arrow
+typing-extensions==4.10.0
+    # via
+    #   aiosqlite
+    #   ipython
+    #   setuptools-scm
+tzdata==2024.1
+    # via pandas
+ujson==5.9.0
+    # via arcgis
+uri-template==1.3.0
+    # via jsonschema
+urllib3==2.2.1
+    # via
+    #   arcgis
+    #   requests
+wcwidth==0.2.13
+    # via prompt-toolkit
+webcolors==1.13
+    # via jsonschema
+webencodings==0.5.1
+    # via
+    #   bleach
+    #   tinycss2
+websocket-client==1.7.0
+    # via jupyter-server
+widgetsnbextension==3.6.6
+    # via
+    #   arcgis
+    #   ipywidgets
+wrapt==1.16.0
+    # via python-certifi-win32
+y-py==0.6.2
+    # via
+    #   jupyter-ydoc
+    #   ypy-websocket
+ypy-websocket==0.8.4
+    # via jupyter-server-ydoc
+zipp==3.17.0
+    # via
+    #   importlib-metadata
+    #   importlib-resources
